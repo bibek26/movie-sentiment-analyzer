@@ -13,7 +13,7 @@ class SentimentAnalyzer:
     
     def load_and_prepare_data(self, file_path):
         """
-        Load and prepare the IMDB dataset
+        Load and prepare the IMDB dataset:
         """
         # Read the CSV file
         df = pd.read_csv(file_path)
